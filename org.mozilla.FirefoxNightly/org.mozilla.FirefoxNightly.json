@@ -112,7 +112,7 @@
       },
       {
         "name": "PipeWire",
-        "config-opts": ["-Dbsystemd=false"],
+        "config-opts": ["-Dsystemd=false"],
         "buildsystem": "meson",
         "sources": [
             {
