@@ -112,12 +112,13 @@
       },
       {
         "name": "PipeWire",
+        "config-opts": ["-Dbsystemd=false"],
         "buildsystem": "meson",
         "sources": [
             {
                 "type": "archive",
-                "url": "https://github.com/PipeWire/pipewire/archive/0.2.2.tar.gz",
-                "sha256": "b39773deb79badf951c136505c708d2177b3a4106ecb63e4c063584d5c26d5d7"
+                "url": "https://github.com/PipeWire/pipewire/archive/0.2.5.tar.gz",
+                "sha256": "6e75bb88a329f97984925bd303643075788df8d51b345bb43feb1be2c3b7102c"
             },
             {
                 "type": "patch",
